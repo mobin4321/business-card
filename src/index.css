@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+body {
+  color: rgb(206, 205, 205);
+  background-color: rgb(36, 35, 35);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*  title and buttons */
+.pfp {
+  width: 100%;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.business-card {
+  width: 250px;
+  /* max-height: 100vh; */
+  background-color: rgb(19, 19, 19);
+  border: transparent;
+  border-radius: 9px;
+}
+.titlenbuttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  line-height: 24px;
+}
+.heading {
+  font-size: 20px;
+}
+.title {
+  font-size: 12px;
+  font-weight: 400;
+}
+.email-linkedin {
+  display: flex;
+  margin-top: 10px;
+}
+.email-button,
+.linkedin-button {
+  text-decoration: none;
+  height: 25px;
+  display: flex;
+  width: 100px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  margin: auto 5px;
+  border: none;
+  font-size: 12.5px;
+  transition: 0.2s;
+}
+.email-button:hover,
+.linkedin-button:hover {
+  cursor: pointer;
+}
+.email-button:hover {
+  box-shadow: 0px 0px 12px 1px rgba(2, 47, 114, 1);
+}
+.linkedin-button:hover {
+  box-shadow: 0px 0px 8px 0px rgb(100, 99, 99, 0.5);
+}
+.email-button:active,
+.linkedin-button:active {
+  opacity: 0.8;
+  box-shadow: none;
+  cursor: default;
+}
+.linkedin-button {
+  background-color: #015583;
+  color: rgb(184, 181, 181);
+}
+.email-button {
+  color: black;
+  background-color: rgb(206, 205, 205);
+}
+
+.email-icon,
+.linkedin-icon {
+  width: 13px;
+  margin-right: 3px;
+}
+/* description  */
+.description {
+  margin: 0px 20px;
+  text-align: justify;
+}
+.description > div {
+  margin: 17px auto;
+  margin-top: 0;
+}
+
+.description h1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 3px auto;
+}
+.description p {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 15px;
+}
+/* socials  */
+.socials {
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  height: 29px;
+}
+.socials img {
+  width: 100%;
+  height: 100%;
+  /* background: white; */
+  padding: 0;
+  margin: 0;
+}
+.socials a {
+  background-color: gray;
+  border-radius: 3px;
+  margin: 2px 7px;
+  width: 20px;
+  height: 20px;
+  transition: 0.2s;
+}
+.socials a:hover {
+  cursor: pointer;
+  background: rgb(206, 205, 205);
+  box-shadow: 0px 0px 3px 0px rgb(100, 99, 99, 0.5);
+}
+.socials a:active {
+  background-color: gray;
+  cursor: default;
+}
